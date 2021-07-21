@@ -1,0 +1,3 @@
+Site - " first.com " Mail - " first@mail.ru " Login - " perviy " Password - " perveishiy "
+Site - " sergey.com " Mail - " sergey@mail.ru " Login - " seriy " Password - " serunchik "
+Site - " george.com " Mail - " george@mail.ru " Login - " georg " Password - " Goshanpivpiv "
