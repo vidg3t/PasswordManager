@@ -15,3 +15,5 @@ password.aes - sets for password setup
 data.txt - test db for you))))))))))
 
 guimain.py - main programm with gui
+
+#https://habr.com/ru/company/vdsina/blog/557316/
