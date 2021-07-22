@@ -138,15 +138,12 @@ else:
                 pyautogui.alert(text = 'Success! File "data.txt" was created.', title = 'Success')                    
 
             if menuansw == 'Find information using mail/login/site/password':
-                pyautogui.alert(text = 'Access is allowed', title = 'Access')
                     
                 word = pyautogui.prompt(text = 'Print what you know -->', title = 'Information')
                 with io.open('data.txt', encoding='utf-8') as file:
                     for line in file:
                         if word in line:
                             pyautogui.alert(text = f'Here is all information we found:\n{line}')
-                        else:
-                            pyautogui.alert(text = 'There is nothing we could find')
 
     else:
         pyautogui.alert(text = 'Access denied', title = 'Authentification')
