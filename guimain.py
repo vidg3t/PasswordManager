@@ -48,7 +48,7 @@ menuansw = '100'
 
 if mainparol == '':
     fileparol = open('password.txt', 'w')
-    mainparol = pyautogui.prompt(text = 'Setup your password-->')
+    mainparol = pyautogui.prompt(text = 'Setup your password(app will stop and u will need to reboot it after)-->')
     fileparol.write(mainparol)
     fileparol.close()
     password = 'dvayukfyukrfvyaefa'
