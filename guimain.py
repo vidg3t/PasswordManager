@@ -17,7 +17,7 @@ os.remove('password.txt')
 
 def add_data(site,mail,login,password):
     f = open('data.txt', 'a')
-    print('Site -','"', site,'"','Mail -','"', mail,'"', 'Login -','"', login,'"', 'Password -','"',password,'"', file = open('data.txt', 'a'))
+    print(f'Site -"{site}"',f'Mail - "{mail}"',f'Login - "{login}"',f'Password - "{password}"', file = open('data.txt', 'a'))
     f.close()
 
 def sendmail():
