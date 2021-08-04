@@ -15,6 +15,7 @@ try:
     pyAesCrypt.decryptFile('password.aes', 'password.txt', password)
     fileparol = open('password.txt', 'r')
     mainparol = fileparol.read()
+    fileparol.close()
     os.remove('password.txt')
 except ValueError:
     f = open('password.txt', 'w')
@@ -24,6 +25,7 @@ except ValueError:
     os.remove('password.txt')
     pyAesCrypt.decryptFile('password.aes', 'password.txt', password)
     fileparol = open('password.txt', 'r')
+    fileparol.close()
     mainparol = fileparol.read()
     os.remove('password.txt') 
 
